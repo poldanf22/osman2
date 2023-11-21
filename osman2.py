@@ -38,7 +38,7 @@ if authentication_status:
                     unsafe_allow_html=True)
         selected_file = option_menu(
             menu_title="Pilih file:",
-            options=["Lok. SD, SMP, 10KM", "Lok. All IPA",
+            options=["Lok. SD, SMP, 10KM", "Lok. SMP (KM SB)", "Lok. All IPA",
                      "Lok. 10, 11 IPS", "Lok. PPLS, RONIN IPS", "Lok. 11KM"],
         )
     if selected_file == "Lok. SD, SMP, 10KM":
